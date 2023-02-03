@@ -1,0 +1,16 @@
+a=input('Enter a array');
+b=input('Enter second array');
+c=input('enter third array');
+
+lin1=conv(a,b);
+lin2=conv(lin1,c);
+lin3=conv(b,c);
+lin4=conv(lin3,a);
+
+if(lin2==lin4)
+    disp('associative');
+
+else
+    disp('not associative')
+
+end
